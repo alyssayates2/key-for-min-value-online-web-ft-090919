@@ -3,8 +3,8 @@
 
 def key_for_min_value(hash)
   hash.each do |name, value|
-    if test.group_by(&:last).min_by(&:first).last.to_h
-      return "#{name}"
-    end
+   test.group_by(&:last).min_by(&:first).last.to_h
+      
+    
   end
 end
