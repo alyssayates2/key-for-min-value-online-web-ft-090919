@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   hash.each do |name, value|
-   test.group_by(&:last).min_by(&:first).last.to_h
+   test.group_by(&:name).min_by(&:value).last.to_h
 
 
   end
